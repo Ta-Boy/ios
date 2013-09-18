@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'RandomPos' target in the 'RandomPos' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
