@@ -1,0 +1,296 @@
+TRecipeBook
+v7
+r1
+cCheck dependencies
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/about.html
+c000000004FE73FAD0000000000000244
+t1340555181
+s580
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/about.jpg
+c000000004FE73F930000000000006A87
+t1340555155
+s27271
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/angry_birds_cake.jpg
+c000000005027DD1F0000000000014D18
+t1344789791
+s85272
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/creme_brelee.jpg
+c000000005027E09F00000000000175BF
+t1344790687
+s95679
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/egg_benedict.jpg
+c000000005027E232000000000000E969
+t1344791090
+s59753
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/en.lproj/InfoPlist.strings
+c000000004FD96B5F000000000000002D
+t1339648863
+s45
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/en.lproj/MainStoryboard.storyboard
+c00000000525E610400000000000038C1
+t1381916932
+s14529
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/full_breakfast.jpg
+c000000005027E10F00000000000163B4
+t1344790799
+s91060
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/green_tea.jpg
+c000000005027DBD50000000000010CA0
+t1344789461
+s68768
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/ham_and_cheese_panini.jpg
+c000000005027E1EE000000000000EF0F
+t1344791022
+s61199
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/ham_and_egg_sandwich.jpg
+c000000005027E32D000000000001154A
+t1344791341
+s70986
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/hamburger.jpg
+c000000005027E2C000000000000143F6
+t1344791232
+s82934
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/instant_noodle_with_egg.jpg
+c000000005027DB770000000000010396
+t1344789367
+s66454
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/japanese_noodle_with_pork.jpg
+c000000005027DF1B00000000000183E8
+t1344790299
+s99304
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/mushroom_risotto.jpg
+c000000005027E150000000000000FFB4
+t1344790864
+s65460
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/noodle_with_bbq_pork.jpg
+c000000005027D5AF000000000000DAE6
+t1344787887
+s56038
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/photo-frame.png
+c000000004EA72E8000000000000026B7
+t1319579264
+s9911
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/photo-frame@2x.png
+c000000004EA014C20000000000002A90
+t1319113922
+s10896
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/starbucks_coffee.jpg
+c000000005027E01B0000000000019806
+t1344790555
+s104454
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/thai_shrimp_cake.jpg
+c000000005027DDBB00000000000191AB
+t1344789947
+s102827
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/vegetable_curry.jpg
+c000000005027DFA60000000000014C70
+t1344790438
+s85104
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/RecipeBook/white_chocolate_donut.jpg
+c0000000050290C58000000000001114B
+t1344867416
+s69963
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/about.html
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/about.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/angry_birds_cake.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/creme_brelee.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/egg_benedict.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/en.lproj/MainStoryboard.storyboard
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/full_breakfast.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/green_tea.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/ham_and_cheese_panini.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/ham_and_egg_sandwich.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/hamburger.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/instant_noodle_with_egg.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/japanese_noodle_with_pork.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/mushroom_risotto.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/noodle_with_bbq_pork.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/photo-frame.png
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/photo-frame@2x.png
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/starbucks_coffee.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/thai_shrimp_cake.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/vegetable_curry.jpg
+t2
+s0
+
+N/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/white_chocolate_donut.jpg
+t2
+s0
+
+NRecipeBook/RecipeBook-Info.plist
+c000000004FD96B5F00000000000004D2
+t1339648863
+s1234
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies403609651#403609651#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'403609651#18446744073709551615#0#0(1@0"0(0#1#0"4328521728#0"0#
+
+CCopyStringsFile "/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Resources/en.lproj/InfoPlist.strings" RecipeBook/en.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/about.html RecipeBook/about.html
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/about.jpg RecipeBook/about.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/angry_birds_cake.jpg RecipeBook/angry_birds_cake.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/creme_brelee.jpg RecipeBook/creme_brelee.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/egg_benedict.jpg RecipeBook/egg_benedict.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/en.lproj/MainStoryboard.storyboard RecipeBook/en.lproj/MainStoryboard.storyboard
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/full_breakfast.jpg RecipeBook/full_breakfast.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/green_tea.jpg RecipeBook/green_tea.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/ham_and_cheese_panini.jpg RecipeBook/ham_and_cheese_panini.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/ham_and_egg_sandwich.jpg RecipeBook/ham_and_egg_sandwich.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/hamburger.jpg RecipeBook/hamburger.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/instant_noodle_with_egg.jpg RecipeBook/instant_noodle_with_egg.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/japanese_noodle_with_pork.jpg RecipeBook/japanese_noodle_with_pork.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/mushroom_risotto.jpg RecipeBook/mushroom_risotto.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/noodle_with_bbq_pork.jpg RecipeBook/noodle_with_bbq_pork.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/photo-frame.png RecipeBook/photo-frame.png
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/photo-frame@2x.png RecipeBook/photo-frame@2x.png
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/starbucks_coffee.jpg RecipeBook/starbucks_coffee.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/thai_shrimp_cake.jpg RecipeBook/thai_shrimp_cake.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/vegetable_curry.jpg RecipeBook/vegetable_curry.jpg
+r0
+
+CCpResource build/Debug/RecipeBook.app/Contents/Resources/white_chocolate_donut.jpg RecipeBook/white_chocolate_donut.jpg
+r0
+
+CProcessInfoPlistFile "/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app/Contents/Info.plist" RecipeBook/RecipeBook-Info.plist
+r0
+
+CTouch "/Users/ugurdonmez/Downloads/RecipeBook Improved/build/Debug/RecipeBook.app"
+r0
+
