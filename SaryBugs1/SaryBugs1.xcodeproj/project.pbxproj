@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244D030F18F3166200FBA3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D030E18F3166200FBA3C9 /* Foundation.framework */; };
+		244D031118F3166200FBA3C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D031018F3166200FBA3C9 /* CoreGraphics.framework */; };
+		244D031318F3166200FBA3C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D031218F3166200FBA3C9 /* UIKit.framework */; };
+		244D031518F3166200FBA3C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D031418F3166200FBA3C9 /* CoreData.framework */; };
+		244D031B18F3166200FBA3C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244D031918F3166200FBA3C9 /* InfoPlist.strings */; };
+		244D031D18F3166200FBA3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D031C18F3166200FBA3C9 /* main.m */; };
+		244D032118F3166200FBA3C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D032018F3166200FBA3C9 /* AppDelegate.m */; };
+		244D032418F3166200FBA3C9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D032218F3166200FBA3C9 /* Main_iPhone.storyboard */; };
+		244D032718F3166200FBA3C9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244D032518F3166200FBA3C9 /* Main_iPad.storyboard */; };
+		244D032A18F3166200FBA3C9 /* SaryBugs1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 244D032818F3166200FBA3C9 /* SaryBugs1.xcdatamodeld */; };
+		244D032D18F3166200FBA3C9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D032C18F3166200FBA3C9 /* MasterViewController.m */; };
+		244D033018F3166200FBA3C9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D032F18F3166200FBA3C9 /* DetailViewController.m */; };
+		244D033218F3166200FBA3C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244D033118F3166200FBA3C9 /* Images.xcassets */; };
+		244D033918F3166200FBA3C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D033818F3166200FBA3C9 /* XCTest.framework */; };
+		244D033A18F3166200FBA3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D030E18F3166200FBA3C9 /* Foundation.framework */; };
+		244D033B18F3166200FBA3C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D031218F3166200FBA3C9 /* UIKit.framework */; };
+		244D033C18F3166200FBA3C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244D031418F3166200FBA3C9 /* CoreData.framework */; };
+		244D034418F3166200FBA3C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244D034218F3166200FBA3C9 /* InfoPlist.strings */; };
+		244D034618F3166200FBA3C9 /* SaryBugs1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D034518F3166200FBA3C9 /* SaryBugs1Tests.m */; };
+		244D035318F3178C00FBA3C9 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D035218F3178C00FBA3C9 /* ScaryBugData.m */; };
+		244D035618F3193000FBA3C9 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D035518F3193000FBA3C9 /* ScaryBugDoc.m */; };
+		244D036118F6D29900FBA3C9 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 244D035818F6D29900FBA3C9 /* attribution.txt */; };
+		244D036218F6D29900FBA3C9 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035918F6D29900FBA3C9 /* centipede.jpg */; };
+		244D036318F6D29900FBA3C9 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035A18F6D29900FBA3C9 /* centipedeThumb.jpg */; };
+		244D036418F6D29900FBA3C9 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035B18F6D29900FBA3C9 /* ladybug.jpg */; };
+		244D036518F6D29900FBA3C9 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035C18F6D29900FBA3C9 /* ladybugThumb.jpg */; };
+		244D036618F6D29900FBA3C9 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035D18F6D29900FBA3C9 /* potatoBug.jpg */; };
+		244D036718F6D29900FBA3C9 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035E18F6D29900FBA3C9 /* potatoBugThumb.jpg */; };
+		244D036818F6D29900FBA3C9 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D035F18F6D29900FBA3C9 /* wolfSpider.jpg */; };
+		244D036918F6D29900FBA3C9 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 244D036018F6D29900FBA3C9 /* wolfSpiderThumb.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244D033D18F3166200FBA3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244D030318F3166100FBA3C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244D030A18F3166200FBA3C9;
+			remoteInfo = SaryBugs1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244D030B18F3166200FBA3C9 /* SaryBugs1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaryBugs1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244D030E18F3166200FBA3C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		244D031018F3166200FBA3C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		244D031218F3166200FBA3C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		244D031418F3166200FBA3C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		244D031818F3166200FBA3C9 /* SaryBugs1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaryBugs1-Info.plist"; sourceTree = "<group>"; };
+		244D031A18F3166200FBA3C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		244D031C18F3166200FBA3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244D031E18F3166200FBA3C9 /* SaryBugs1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaryBugs1-Prefix.pch"; sourceTree = "<group>"; };
+		244D031F18F3166200FBA3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SaryBugs1/AppDelegate.h; sourceTree = "<group>"; };
+		244D032018F3166200FBA3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SaryBugs1/AppDelegate.m; sourceTree = "<group>"; };
+		244D032318F3166200FBA3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		244D032618F3166200FBA3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		244D032918F3166200FBA3C9 /* SaryBugs1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SaryBugs1.xcdatamodel; sourceTree = "<group>"; };
+		244D032B18F3166200FBA3C9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = SaryBugs1/MasterViewController.h; sourceTree = "<group>"; };
+		244D032C18F3166200FBA3C9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = SaryBugs1/MasterViewController.m; sourceTree = "<group>"; };
+		244D032E18F3166200FBA3C9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = SaryBugs1/DetailViewController.h; sourceTree = "<group>"; };
+		244D032F18F3166200FBA3C9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = SaryBugs1/DetailViewController.m; sourceTree = "<group>"; };
+		244D033118F3166200FBA3C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		244D033718F3166200FBA3C9 /* SaryBugs1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaryBugs1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244D033818F3166200FBA3C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		244D034118F3166200FBA3C9 /* SaryBugs1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaryBugs1Tests-Info.plist"; sourceTree = "<group>"; };
+		244D034318F3166200FBA3C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		244D034518F3166200FBA3C9 /* SaryBugs1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaryBugs1Tests.m; sourceTree = "<group>"; };
+		244D035118F3178C00FBA3C9 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		244D035218F3178C00FBA3C9 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		244D035418F3193000FBA3C9 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		244D035518F3193000FBA3C9 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		244D035818F6D29900FBA3C9 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		244D035918F6D29900FBA3C9 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		244D035A18F6D29900FBA3C9 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		244D035B18F6D29900FBA3C9 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		244D035C18F6D29900FBA3C9 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		244D035D18F6D29900FBA3C9 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		244D035E18F6D29900FBA3C9 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		244D035F18F6D29900FBA3C9 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		244D036018F6D29900FBA3C9 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244D030818F3166200FBA3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D031118F3166200FBA3C9 /* CoreGraphics.framework in Frameworks */,
+				244D031518F3166200FBA3C9 /* CoreData.framework in Frameworks */,
+				244D031318F3166200FBA3C9 /* UIKit.framework in Frameworks */,
+				244D030F18F3166200FBA3C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D033418F3166200FBA3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D033918F3166200FBA3C9 /* XCTest.framework in Frameworks */,
+				244D033C18F3166200FBA3C9 /* CoreData.framework in Frameworks */,
+				244D033B18F3166200FBA3C9 /* UIKit.framework in Frameworks */,
+				244D033A18F3166200FBA3C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244D030218F3166100FBA3C9 = {
+			isa = PBXGroup;
+			children = (
+				244D031618F3166200FBA3C9 /* SaryBugs1 */,
+				244D033F18F3166200FBA3C9 /* SaryBugs1Tests */,
+				244D030D18F3166200FBA3C9 /* Frameworks */,
+				244D030C18F3166200FBA3C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244D030C18F3166200FBA3C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244D030B18F3166200FBA3C9 /* SaryBugs1.app */,
+				244D033718F3166200FBA3C9 /* SaryBugs1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244D030D18F3166200FBA3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				244D030E18F3166200FBA3C9 /* Foundation.framework */,
+				244D031018F3166200FBA3C9 /* CoreGraphics.framework */,
+				244D031218F3166200FBA3C9 /* UIKit.framework */,
+				244D031418F3166200FBA3C9 /* CoreData.framework */,
+				244D033818F3166200FBA3C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		244D031618F3166200FBA3C9 /* SaryBugs1 */ = {
+			isa = PBXGroup;
+			children = (
+				244D035718F6D29900FBA3C9 /* ScaryBugs */,
+				244D035018F3173A00FBA3C9 /* Model */,
+				244D034F18F316FA00FBA3C9 /* GUI */,
+				244D033118F3166200FBA3C9 /* Images.xcassets */,
+				244D032818F3166200FBA3C9 /* SaryBugs1.xcdatamodeld */,
+				244D031718F3166200FBA3C9 /* Supporting Files */,
+			);
+			path = SaryBugs1;
+			sourceTree = "<group>";
+		};
+		244D031718F3166200FBA3C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244D031818F3166200FBA3C9 /* SaryBugs1-Info.plist */,
+				244D031918F3166200FBA3C9 /* InfoPlist.strings */,
+				244D031C18F3166200FBA3C9 /* main.m */,
+				244D031E18F3166200FBA3C9 /* SaryBugs1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244D033F18F3166200FBA3C9 /* SaryBugs1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				244D034518F3166200FBA3C9 /* SaryBugs1Tests.m */,
+				244D034018F3166200FBA3C9 /* Supporting Files */,
+			);
+			path = SaryBugs1Tests;
+			sourceTree = "<group>";
+		};
+		244D034018F3166200FBA3C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244D034118F3166200FBA3C9 /* SaryBugs1Tests-Info.plist */,
+				244D034218F3166200FBA3C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244D034F18F316FA00FBA3C9 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				244D031F18F3166200FBA3C9 /* AppDelegate.h */,
+				244D032018F3166200FBA3C9 /* AppDelegate.m */,
+				244D032218F3166200FBA3C9 /* Main_iPhone.storyboard */,
+				244D032518F3166200FBA3C9 /* Main_iPad.storyboard */,
+				244D032B18F3166200FBA3C9 /* MasterViewController.h */,
+				244D032C18F3166200FBA3C9 /* MasterViewController.m */,
+				244D032E18F3166200FBA3C9 /* DetailViewController.h */,
+				244D032F18F3166200FBA3C9 /* DetailViewController.m */,
+			);
+			name = GUI;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		244D035018F3173A00FBA3C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				244D035118F3178C00FBA3C9 /* ScaryBugData.h */,
+				244D035218F3178C00FBA3C9 /* ScaryBugData.m */,
+				244D035418F3193000FBA3C9 /* ScaryBugDoc.h */,
+				244D035518F3193000FBA3C9 /* ScaryBugDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		244D035718F6D29900FBA3C9 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				244D035818F6D29900FBA3C9 /* attribution.txt */,
+				244D035918F6D29900FBA3C9 /* centipede.jpg */,
+				244D035A18F6D29900FBA3C9 /* centipedeThumb.jpg */,
+				244D035B18F6D29900FBA3C9 /* ladybug.jpg */,
+				244D035C18F6D29900FBA3C9 /* ladybugThumb.jpg */,
+				244D035D18F6D29900FBA3C9 /* potatoBug.jpg */,
+				244D035E18F6D29900FBA3C9 /* potatoBugThumb.jpg */,
+				244D035F18F6D29900FBA3C9 /* wolfSpider.jpg */,
+				244D036018F6D29900FBA3C9 /* wolfSpiderThumb.jpg */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244D030A18F3166200FBA3C9 /* SaryBugs1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244D034918F3166200FBA3C9 /* Build configuration list for PBXNativeTarget "SaryBugs1" */;
+			buildPhases = (
+				244D030718F3166200FBA3C9 /* Sources */,
+				244D030818F3166200FBA3C9 /* Frameworks */,
+				244D030918F3166200FBA3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaryBugs1;
+			productName = SaryBugs1;
+			productReference = 244D030B18F3166200FBA3C9 /* SaryBugs1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244D033618F3166200FBA3C9 /* SaryBugs1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244D034C18F3166200FBA3C9 /* Build configuration list for PBXNativeTarget "SaryBugs1Tests" */;
+			buildPhases = (
+				244D033318F3166200FBA3C9 /* Sources */,
+				244D033418F3166200FBA3C9 /* Frameworks */,
+				244D033518F3166200FBA3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244D033E18F3166200FBA3C9 /* PBXTargetDependency */,
+			);
+			name = SaryBugs1Tests;
+			productName = SaryBugs1Tests;
+			productReference = 244D033718F3166200FBA3C9 /* SaryBugs1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244D030318F3166100FBA3C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ugurdonmez;
+				TargetAttributes = {
+					244D033618F3166200FBA3C9 = {
+						TestTargetID = 244D030A18F3166200FBA3C9;
+					};
+				};
+			};
+			buildConfigurationList = 244D030618F3166100FBA3C9 /* Build configuration list for PBXProject "SaryBugs1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244D030218F3166100FBA3C9;
+			productRefGroup = 244D030C18F3166200FBA3C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244D030A18F3166200FBA3C9 /* SaryBugs1 */,
+				244D033618F3166200FBA3C9 /* SaryBugs1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244D030918F3166200FBA3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D036818F6D29900FBA3C9 /* wolfSpider.jpg in Resources */,
+				244D032718F3166200FBA3C9 /* Main_iPad.storyboard in Resources */,
+				244D033218F3166200FBA3C9 /* Images.xcassets in Resources */,
+				244D036418F6D29900FBA3C9 /* ladybug.jpg in Resources */,
+				244D036618F6D29900FBA3C9 /* potatoBug.jpg in Resources */,
+				244D032418F3166200FBA3C9 /* Main_iPhone.storyboard in Resources */,
+				244D036918F6D29900FBA3C9 /* wolfSpiderThumb.jpg in Resources */,
+				244D036218F6D29900FBA3C9 /* centipede.jpg in Resources */,
+				244D036718F6D29900FBA3C9 /* potatoBugThumb.jpg in Resources */,
+				244D036318F6D29900FBA3C9 /* centipedeThumb.jpg in Resources */,
+				244D036518F6D29900FBA3C9 /* ladybugThumb.jpg in Resources */,
+				244D031B18F3166200FBA3C9 /* InfoPlist.strings in Resources */,
+				244D036118F6D29900FBA3C9 /* attribution.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D033518F3166200FBA3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D034418F3166200FBA3C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244D030718F3166200FBA3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D033018F3166200FBA3C9 /* DetailViewController.m in Sources */,
+				244D035618F3193000FBA3C9 /* ScaryBugDoc.m in Sources */,
+				244D035318F3178C00FBA3C9 /* ScaryBugData.m in Sources */,
+				244D032D18F3166200FBA3C9 /* MasterViewController.m in Sources */,
+				244D032118F3166200FBA3C9 /* AppDelegate.m in Sources */,
+				244D031D18F3166200FBA3C9 /* main.m in Sources */,
+				244D032A18F3166200FBA3C9 /* SaryBugs1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244D033318F3166200FBA3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D034618F3166200FBA3C9 /* SaryBugs1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244D033E18F3166200FBA3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244D030A18F3166200FBA3C9 /* SaryBugs1 */;
+			targetProxy = 244D033D18F3166200FBA3C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244D031918F3166200FBA3C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D031A18F3166200FBA3C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		244D032218F3166200FBA3C9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D032318F3166200FBA3C9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			path = SaryBugs1;
+			sourceTree = "<group>";
+		};
+		244D032518F3166200FBA3C9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D032618F3166200FBA3C9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			path = SaryBugs1;
+			sourceTree = "<group>";
+		};
+		244D034218F3166200FBA3C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244D034318F3166200FBA3C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244D034718F3166200FBA3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244D034818F3166200FBA3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244D034A18F3166200FBA3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaryBugs1/SaryBugs1-Prefix.pch";
+				INFOPLIST_FILE = "SaryBugs1/SaryBugs1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		244D034B18F3166200FBA3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaryBugs1/SaryBugs1-Prefix.pch";
+				INFOPLIST_FILE = "SaryBugs1/SaryBugs1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		244D034D18F3166200FBA3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaryBugs1.app/SaryBugs1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaryBugs1/SaryBugs1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SaryBugs1Tests/SaryBugs1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		244D034E18F3166200FBA3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaryBugs1.app/SaryBugs1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaryBugs1/SaryBugs1-Prefix.pch";
+				INFOPLIST_FILE = "SaryBugs1Tests/SaryBugs1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244D030618F3166100FBA3C9 /* Build configuration list for PBXProject "SaryBugs1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D034718F3166200FBA3C9 /* Debug */,
+				244D034818F3166200FBA3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244D034918F3166200FBA3C9 /* Build configuration list for PBXNativeTarget "SaryBugs1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D034A18F3166200FBA3C9 /* Debug */,
+				244D034B18F3166200FBA3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		244D034C18F3166200FBA3C9 /* Build configuration list for PBXNativeTarget "SaryBugs1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D034D18F3166200FBA3C9 /* Debug */,
+				244D034E18F3166200FBA3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		244D032818F3166200FBA3C9 /* SaryBugs1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				244D032918F3166200FBA3C9 /* SaryBugs1.xcdatamodel */,
+			);
+			currentVersion = 244D032918F3166200FBA3C9 /* SaryBugs1.xcdatamodel */;
+			path = SaryBugs1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 244D030318F3166100FBA3C9 /* Project object */;
+}

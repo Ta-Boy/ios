@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24E7E93318EF1082007320B1 /* kingtablojpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E7E93218EF1082007320B1 /* kingtablojpg.png */; };
 		24EAE70018E1FC71002563DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAE6FF18E1FC71002563DF /* Foundation.framework */; };
 		24EAE70218E1FC71002563DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAE70118E1FC71002563DF /* CoreGraphics.framework */; };
 		24EAE70418E1FC71002563DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EAE70318E1FC71002563DF /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24E7E93218EF1082007320B1 /* kingtablojpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kingtablojpg.png; sourceTree = "<group>"; };
 		24EAE6FC18E1FC71002563DF /* kingdeneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingdeneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EAE6FF18E1FC71002563DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24EAE70118E1FC71002563DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,9 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E7E93118EF106A007320B1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				24E7E93218EF1082007320B1 /* kingtablojpg.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		24EAE6F318E1FC71002563DF = {
 			isa = PBXGroup;
 			children = (
+				24E7E93118EF106A007320B1 /* images */,
 				24EAE70518E1FC71002563DF /* kingdeneme */,
 				24EAE72718E1FC71002563DF /* kingdenemeTests */,
 				24EAE6FE18E1FC71002563DF /* Frameworks */,
@@ -235,6 +246,7 @@
 				24EAE71B18E1FC71002563DF /* Images.xcassets in Resources */,
 				24EAE71318E1FC71002563DF /* Main_iPhone.storyboard in Resources */,
 				24EAE70A18E1FC71002563DF /* InfoPlist.strings in Resources */,
+				24E7E93318EF1082007320B1 /* kingtablojpg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +482,7 @@
 				24EAE73318E1FC71002563DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24EAE73418E1FC71002563DF /* Build configuration list for PBXNativeTarget "kingdenemeTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				24EAE73618E1FC71002563DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
